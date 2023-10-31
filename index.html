@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div class="centered-container">
+        <div class="centered-div" style="background-color: rgba(45,57,63, 1); height: 300px; width: 500px; border-radius: 5px;">
+
+
+
+            <div id="login" style=" float:left; width: 55%; margin-left: 30px; margin-top:20px; margin-right: 10px; ">
+                            <h5 style="text-align: center; color: white; margin-bottom: 10px;">Witamy ponownie!</h5>
+                            <h6 style="text-align: center;color: rgba(170,172,176,1); margin-top: 0px;">Cieszymy się, że znowu z nami jesteś!</h6>
+
+                            <form method="POST" action="login.php">
+                                <Label style="font-size: 9px; color: rgba(170,172,176,1); font-size: 7px; font-weight: bold;">ADRES E-MAIL LUB NUMER TELEFONU <span style="color: red">*</span></Label> </br>
+                                <input type="text" style="margin-top: 0px; margin-bottom: 5px; width: 100%; height: 20px;" name="email"></br>
+                                
+                                <Label style="margin-top: 0px;font-size: 9px; color: rgba(170,172,176,1); font-size: 7px; font-weight: bold;">HASŁO <span style="color: red">*</span></Label></br>
+                                <input style="margin-top: 0px; margin-bottom: px; width: 100%; height: 20px;" name="password" type="password"></br>
+                                
+                                <a href="#" style="font-size: 9px; margin-bottom: 10px; font-weight: bold; color: rgba(106,126,197,1); text-decoration: none;">Nie pamiętasz hasła?</a></br>
+                                <button style="margin-top: 10px; color: white; height: 40px; width: 100%; background-color: rgba(114,137,218,1); border-radius: 3px; border-color: rgba(114,137,218,1);">Zaloguj się</button>                                
+                            </form>
+
+                            <p style="margin-top: 5px; font-size: 9px;  color: rgba(170,172,176,1);">Potrzebujesz konta? <a href="#"  style="color: rgba(106,126,197,1); text-decoration: none;">Zarejestruj się</a></p>
+            </div>
+
+            <div id="qr" style=" float:left; width: 35%;  margin-top:55px;">
+                <div style="text-align: center; margin:auto; " >
+                    <img width="100" src="qr.png">
+                    <h2 style="color: white; font-size: 14px;"> Zaloguj się kodem QR</h2>
+                    <p style="color:  rgba(170,172,176,1); width: 170px ; margin-left: auto; margin-right: auto; font-size: 10px; font-weight:400;" >Zeskanuj to <b>aplikacją mobilną Discorda</b>, by natychmiast się zalogować</p>
+                </div>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
